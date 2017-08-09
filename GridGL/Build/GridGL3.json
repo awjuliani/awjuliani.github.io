@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "GridGL3.data.unityweb",
+"asmCodeUrl": "GridGL3.asm.code.unityweb",
+"asmMemoryUrl": "GridGL3.asm.memory.unityweb",
+"asmFrameworkUrl": "GridGL3.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
