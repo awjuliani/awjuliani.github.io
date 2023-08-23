@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: A list of repositories which I am either the owner or a main contributor of. Mainly focused on deep reinforcement learning and navigation.
+description: A list of repositories which I am either the owner or a main contributor of.
 nav: true
 nav_order: 3
 ---
