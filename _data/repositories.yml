@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - awjuliani
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - Unity-Technologies/ml-agents
+  - Unity-Technologies/obstacle-tower-env
+  - awjuliani/neuro-nav
+  - awjuliani/pytorch-diffusion
+  - awjuliani/successor_examples
+  - awjuliani/oreilly-rl-tutorial
