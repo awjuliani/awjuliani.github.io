@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /repositories/
-title: repositories
-description: A list of repositories which I am either the owner or a main contributor of.
+permalink: /open_source/
+title: open source
+description: A list of github repositories which I am either the owner or a main contributor of.
 nav: true
 nav_order: 3
 ---
