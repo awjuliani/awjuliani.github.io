@@ -24,6 +24,6 @@ While at [Unity Technologies](https://unity.com/), I was one of the founding dev
 
 During my time at [Araya Inc](https://research.araya.org/) I led a pair of projects studying the potential for current deep learning architectures to capture the functional properties of current leading models of consciousness. This included a proposal that the Transformer architecture can be understood as functional Global Neuronal Workspace.
 
-At [Microsoft Research](https://www.microsoft.com/en-us/research/) I am currently focusing on using theoretical frameworks from deep reinforcement learning to model both healthy and pathological representation learning, belief formation, and decision making in humans. The goal of this line of research is to better understanding mental health disorders and their potential treatment through novel modalities such as psychedelics, meditation, and neurofeedback.
+At [Microsoft Research](https://www.microsoft.com/en-us/research/) I am currently focusing on using the theoretical framework of deep reinforcement learning to model both healthy and pathological representation learning, belief formation, and decision making in humans. The goal of this line of research is to better understanding mental health disorders and their potential treatment through novel modalities such as psychedelic-assisted therapy, meditation, and neurofeedback.
 
 [Download my curriculum vitae](/assets/pdf/juliani_cv.pdf)
