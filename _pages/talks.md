@@ -6,6 +6,8 @@ description: A list of recorded talks and presentations.
 nav: true
 nav_order: 2
 videos:
+  - title: A dual-receptor model of serotonergic psychedelics
+    link: https://www.youtube.com/watch?v=Mzlyc1AYGlo
   - title: Deep CANALs @ Active Inference Insitute 2023
     link: https://www.youtube.com/embed/aFwuucck7a8?si=ft53QF20nm4Zid87
   - title: On the link between conscious function and general intelligence in humans and machines @ Consciousness Club Tokyo 2022
