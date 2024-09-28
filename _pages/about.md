@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a research scientist at the Institute for Advanced Consciousness Studies. My interests reside at the intersection of psychology, neuroscience, machine learning, and philosophy.
+I am currently a research scientist at the [Institute for Advanced Consciousness Studies](https://advancedconsciousness.org/). My interests reside at the intersection of psychology, neuroscience, machine learning, and philosophy.
 
 My graduate research at [University of Oregon](https://www.uoregon.edu/) focused on human navigation and computational models of the brain systems which support it. In that work, I used a combination of behavioral experiments and novel computational modeling to develop a deep learning inspired model of the hippocampal place cell system.
 
