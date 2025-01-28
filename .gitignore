@@ -9,3 +9,7 @@ _site
 Gemfile.lock
 vendor
 
+
+.env
+logs/
+__pycache__/
