@@ -7,7 +7,7 @@ subtitle: Research Scientist
 profile:
   align: right
   image: prof_pic.jpeg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   address:
 
 news: false  # includes a list of news items
@@ -27,3 +27,5 @@ During my time at [Araya Inc](https://research.araya.org/) I led a pair of proje
 At [Microsoft Research](https://www.microsoft.com/en-us/research/) I focused on using the theoretical framework of deep reinforcement learning to model both healthy and pathological representation learning, belief formation, and decision making in humans. The goal of this line of research was to better understanding mental health disorders and their potential treatment through novel modalities such as psychedelic-assisted therapy, meditation, and neurofeedback.
 
 [Download my curriculum vitae](/assets/pdf/juliani_cv.pdf)
+
+[Google Scholar](https://scholar.google.com/citations?user=awjuliani)
