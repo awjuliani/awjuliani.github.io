@@ -28,4 +28,4 @@ At [Microsoft Research](https://www.microsoft.com/en-us/research/) I focused on 
 
 [Download my curriculum vitae](/assets/pdf/juliani_cv.pdf)
 
-[Google Scholar](https://scholar.google.com/citations?user=awjuliani)
+[Visit my Google Scholar profile](https://scholar.google.com/citations?user=awjuliani)
