@@ -1,0 +1,63 @@
+# Creations - Open source projects and websites
+# Each creation can link to either a website or GitHub repository
+
+creations:
+  - title: "ML-Agents Toolkit"
+    description: "Open-source Unity plugin for training intelligent agents using reinforcement learning and imitation learning."
+    image: "/assets/img/creations/ml-agents.png"
+    link: "https://github.com/Unity-Technologies/ml-agents"
+    link_type: "github"
+    tags:
+      - reinforcement-learning
+      - unity
+      - python
+
+  - title: "Obstacle Tower"
+    description: "Procedurally generated 3D environment for benchmarking AI agents on generalization and sparse reward learning."
+    image: "/assets/img/creations/obstacle-tower.png"
+    link: "https://github.com/Unity-Technologies/obstacle-tower-env"
+    link_type: "github"
+    tags:
+      - reinforcement-learning
+      - benchmark
+      - unity
+
+  - title: "Neuro-Nav"
+    description: "A library for neurally-plausible reinforcement learning research, focusing on navigation and spatial cognition."
+    image: "/assets/img/creations/neuro-nav.png"
+    link: "https://github.com/awjuliani/neuro-nav"
+    link_type: "github"
+    tags:
+      - neuroscience
+      - reinforcement-learning
+      - python
+
+  - title: "PyTorch Diffusion"
+    description: "Clean, minimal implementation of denoising diffusion probabilistic models in PyTorch."
+    image: "/assets/img/creations/pytorch-diffusion.png"
+    link: "https://github.com/awjuliani/pytorch-diffusion"
+    link_type: "github"
+    tags:
+      - diffusion
+      - generative-models
+      - pytorch
+
+  - title: "Successor Examples"
+    description: "Tutorial implementations of successor representation algorithms for reinforcement learning."
+    image: "/assets/img/creations/successor-examples.png"
+    link: "https://github.com/awjuliani/successor_examples"
+    link_type: "github"
+    tags:
+      - reinforcement-learning
+      - tutorial
+      - python
+
+  - title: "O'Reilly RL Tutorial"
+    description: "Reinforcement learning tutorial materials for O'Reilly AI Conference, covering deep RL fundamentals."
+    image: "/assets/img/creations/oreilly-rl.png"
+    link: "https://github.com/awjuliani/oreilly-rl-tutorial"
+    link_type: "github"
+    tags:
+      - tutorial
+      - reinforcement-learning
+      - deep-learning

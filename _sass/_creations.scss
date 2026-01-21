@@ -1,0 +1,136 @@
+/*******************************************************************************
+ * Styles for the Creations page
+ ******************************************************************************/
+
+// Creation card styles
+.creation-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.creation-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--global-bg-color);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+
+    .creation-overlay {
+      opacity: 1;
+    }
+
+    .creation-img {
+      transform: scale(1.05);
+    }
+  }
+}
+
+.creation-img-wrapper {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16 / 10;
+  background: var(--global-card-bg-color);
+}
+
+.creation-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.creation-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--global-theme-color) 0%, var(--global-hover-color) 100%);
+  color: white;
+  aspect-ratio: 16 / 10;
+}
+
+.creation-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+
+  i {
+    color: white;
+    font-size: 2rem;
+  }
+}
+
+.creation-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--global-text-color);
+}
+
+.creation-description {
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.creation-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: auto;
+}
+
+.creation-tag {
+  font-size: 0.7rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  background: var(--global-theme-color);
+  color: white;
+  opacity: 0.85;
+}
+
+// Grid layout for creations
+.creations-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -0.75rem;
+}
+
+.creations-grid > .col-sm-6 {
+  padding: 0.75rem;
+}
+
+// Responsive adjustments
+@media (max-width: 576px) {
+  .creation-card {
+    border-radius: 8px;
+  }
+
+  .creation-title {
+    font-size: 1rem;
+  }
+
+  .creation-description {
+    font-size: 0.85rem;
+  }
+}
