@@ -2,29 +2,38 @@
 layout: page
 title: talks
 permalink: /talks/
-description: A list of recorded talks and presentations.
+description: Recorded talks and presentations.
 nav: true
 nav_order: 2
 videos:
   - title: A dual-receptor model of serotonergic psychedelics
-    link: https://www.youtube.com/embed/Mzlyc1AYGlo?si=ymlk_KTxjleNK1_a
-  - title: Deep CANALs @ Active Inference Insitute 2023
-    link: https://www.youtube.com/embed/aFwuucck7a8?si=ft53QF20nm4Zid87
+    id: Mzlyc1AYGlo
+  - title: Deep CANALs @ Active Inference Institute 2023
+    id: aFwuucck7a8
   - title: On the link between conscious function and general intelligence in humans and machines @ Consciousness Club Tokyo 2022
-    link: https://www.youtube.com/embed/6jJEbyWiLhc?si=JR3I70-rTOCr8lAE
+    id: 6jJEbyWiLhc
   - title: The Perceiver Architecture is a Functional Global Workspace @ CogSci 2022
-    link: https://www.youtube.com/embed/YOW2fqK3isQ?si=QaoJQ3cKpg3rZO2j
+    id: YOW2fqK3isQ
   - title: Varieties of human-like AI @ CCN 2022
-    link: https://www.youtube.com/embed/oqO6Xm4wjxo?si=fy9vGj3sJvLzVDQs
+    id: oqO6Xm4wjxo
   - title: Unity ML-Agents Presentation @ PAPIs.io 2017
-    link: https://www.youtube.com/embed/rv224ozz7vo?si=_DOXvSSbzs5Q3may
+    id: rv224ozz7vo
 ---
 
-{% for video in page.videos %}
-## {{ video.title }}
-
-<div class="video-container">
-  <iframe src="{{ video.link }}" title="{{ video.title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="talks-grid">
+  {% for video in page.videos %}
+  <a href="https://www.youtube.com/watch?v={{ video.id }}" class="talk-card" target="_blank" rel="noopener noreferrer">
+    <div class="talk-thumbnail">
+      <img src="https://img.youtube.com/vi/{{ video.id }}/maxresdefault.jpg"
+           alt="{{ video.title }}"
+           onerror="this.src='https://img.youtube.com/vi/{{ video.id }}/hqdefault.jpg'">
+      <div class="talk-play-btn">
+        <i class="fas fa-play"></i>
+      </div>
+    </div>
+    <div class="talk-info">
+      <h3 class="talk-title">{{ video.title }}</h3>
+    </div>
+  </a>
+  {% endfor %}
 </div>
-
-{% endfor %}
