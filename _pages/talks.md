@@ -24,9 +24,8 @@ videos:
   {% for video in page.videos %}
   <a href="https://www.youtube.com/watch?v={{ video.id }}" class="talk-card" target="_blank" rel="noopener noreferrer">
     <div class="talk-thumbnail">
-      <img src="https://img.youtube.com/vi/{{ video.id }}/maxresdefault.jpg"
-           alt="{{ video.title }}"
-           onerror="this.src='https://img.youtube.com/vi/{{ video.id }}/hqdefault.jpg'">
+      <img src="https://img.youtube.com/vi/{{ video.id }}/hqdefault.jpg"
+           alt="{{ video.title }}">
       <div class="talk-play-btn">
         <i class="fas fa-play"></i>
       </div>
