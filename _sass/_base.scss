@@ -482,6 +482,40 @@ footer.sticky-bottom {
       display: unset;
     }
   }
+
+  // Post with thumbnail styles
+  .post-with-thumbnail {
+    align-items: flex-start;
+  }
+
+  .post-thumbnail-col {
+    padding-right: 1.5rem;
+
+    .card-img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 10;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+  }
+
+  @media (max-width: 576px) {
+    .post-with-thumbnail {
+      flex-direction: column;
+    }
+
+    .post-thumbnail-col {
+      padding-right: 0;
+      margin-bottom: 1rem;
+      width: 100%;
+
+      .card-img {
+        max-height: 200px;
+      }
+    }
+  }
 }
 
 .pagination {

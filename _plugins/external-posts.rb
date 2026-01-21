@@ -26,6 +26,15 @@ module ExternalPosts
             doc.data['description'] = e.summary;
             doc.data['date'] = e.published;
             doc.data['redirect'] = e.url;
+
+            # Extract thumbnail from content (Medium includes images in content)
+            if e.content
+              img_match = e.content.match(/<img[^>]+src=["']([^"']+)["']/)
+              if img_match
+                doc.data['thumbnail'] = img_match[1]
+              end
+            end
+
             site.collections['posts'].docs << doc
           end
         end
