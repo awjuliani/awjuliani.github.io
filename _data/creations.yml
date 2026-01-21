@@ -32,32 +32,52 @@ creations:
       - reinforcement-learning
       - python
 
-  - title: "PyTorch Diffusion"
-    description: "Clean, minimal implementation of denoising diffusion probabilistic models in PyTorch."
-    image: "/assets/img/creations/pytorch-diffusion.png"
-    link: "https://github.com/awjuliani/pytorch-diffusion"
+  - title: "Dream JRPG"
+    description: "An experiment in using LLMs to procedurally generate simple Japanese-style RPGs with dynamic storylines, characters, and combat."
+    image: "/assets/img/creations/dream-jrpg.png"
+    link: "https://github.com/awjuliani/dream-jrpg"
     link_type: "github"
     tags:
-      - diffusion
-      - generative-models
-      - pytorch
-
-  - title: "Successor Examples"
-    description: "Tutorial implementations of successor representation algorithms for reinforcement learning."
-    image: "/assets/img/creations/successor-examples.png"
-    link: "https://github.com/awjuliani/successor_examples"
-    link_type: "github"
-    tags:
-      - reinforcement-learning
-      - tutorial
+      - generative-ai
+      - games
       - python
 
-  - title: "O'Reilly RL Tutorial"
-    description: "Reinforcement learning tutorial materials for O'Reilly AI Conference, covering deep RL fundamentals."
-    image: "/assets/img/creations/oreilly-rl.png"
-    link: "https://github.com/awjuliani/oreilly-rl-tutorial"
+  - title: "RL Playground"
+    description: "Interactive web-based demonstration of tabular reinforcement learning algorithms in a grid world environment."
+    image: "/assets/img/creations/rl-playground.png"
+    link: "https://github.com/awjuliani/web-rl-playground"
     link_type: "github"
     tags:
-      - tutorial
       - reinforcement-learning
-      - deep-learning
+      - visualization
+      - javascript
+
+  - title: "Metaphysics Quiz"
+    description: "Discover your philosophical worldview across 8 dimensions and match with 40 major philosophical systems."
+    image: "/assets/img/creations/metaphysics-quiz.png"
+    link: "https://github.com/awjuliani/metaphysics-quiz"
+    link_type: "github"
+    tags:
+      - philosophy
+      - interactive
+      - javascript
+
+  - title: "Tarot Carousel"
+    description: "A companion guide to 'Meditations on the Tarot' with an interactive card-based interface."
+    image: "/assets/img/creations/tarot-carousel.png"
+    link: "https://github.com/awjuliani/tarot-carousel"
+    link_type: "github"
+    tags:
+      - interactive
+      - philosophy
+      - javascript
+
+  - title: "Weather Explore"
+    description: "Compare monthly climate data across different cities visualized as 3D rings."
+    image: "/assets/img/creations/weather-explore.png"
+    link: "https://github.com/awjuliani/weather-explore"
+    link_type: "github"
+    tags:
+      - visualization
+      - data
+      - javascript
