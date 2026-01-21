@@ -243,3 +243,122 @@
     font-size: 0.9rem;
   }
 }
+
+/*******************************************************************************
+ * Styles for the Socials page
+ ******************************************************************************/
+
+.socials-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.social-card {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.25rem 1.5rem;
+  text-decoration: none;
+  border-radius: 12px;
+  background: var(--global-bg-color);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+
+  &:hover {
+    text-decoration: none;
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+
+    .social-icon {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  background: var(--global-theme-color);
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+
+  i {
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  // Platform-specific colors
+  &.twitter {
+    background: #1da1f2;
+  }
+
+  &.github {
+    background: #333;
+  }
+
+  &.medium {
+    background: #000;
+  }
+
+  &.linkedin {
+    background: #0077b5;
+  }
+
+  &.scholar {
+    background: #4285f4;
+  }
+}
+
+.social-info {
+  min-width: 0;
+
+  h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin: 0 0 0.25rem 0;
+    color: var(--global-text-color);
+  }
+
+  span {
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 576px) {
+  .social-card {
+    padding: 1rem 1.25rem;
+    border-radius: 8px;
+  }
+
+  .social-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+
+    i {
+      font-size: 1.25rem;
+    }
+  }
+
+  .social-info h3 {
+    font-size: 1rem;
+  }
+
+  .social-info span {
+    font-size: 0.85rem;
+  }
+}

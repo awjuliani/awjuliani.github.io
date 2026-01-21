@@ -1,7 +1,7 @@
-# Creations - Open source projects and websites
-# Each creation can link to either a website or GitHub repository
+# Projects - Open source projects and websites
+# Each project can link to either a website or GitHub repository
 
-creations:
+projects:
   - title: "ML-Agents Toolkit"
     description: "Open-source Unity plugin for training intelligent agents using reinforcement learning and imitation learning."
     image: "/assets/img/creations/ml-agents.png"
