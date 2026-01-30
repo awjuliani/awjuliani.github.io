@@ -439,19 +439,11 @@
   text-transform: capitalize;
   font-weight: 500;
 
-  &--philosophy {
+  &--philosophy,
+  &--literature,
+  &--poetry {
     background: #e8f4fd;
     color: #1565c0;
-  }
-
-  &--literature {
-    background: #fce4ec;
-    color: #c62828;
-  }
-
-  &--poetry {
-    background: #f3e5f5;
-    color: #7b1fa2;
   }
 }
 
