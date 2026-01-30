@@ -1,0 +1,16 @@
+<!-- _includes/group_card.html -->
+<a href="{{ include.group.wikipedia }}" class="group-card" target="_blank" rel="noopener noreferrer">
+  <div class="group-content">
+    <div class="group-main">
+      <h3 class="group-title">{{ include.group.title }}</h3>
+      <p class="group-author">{{ include.group.author }}</p>
+    </div>
+    <div class="group-meta">
+      <span class="group-genre group-genre--{{ include.group.genre }}">{{ include.group.genre }}</span>
+      <span class="group-year">{{ include.group.year }}</span>
+    </div>
+  </div>
+  <div class="group-link-icon">
+    <i class="fab fa-wikipedia-w"></i>
+  </div>
+</a>

@@ -362,3 +362,157 @@
     font-size: 0.85rem;
   }
 }
+
+/*******************************************************************************
+ * Styles for the Groups page
+ ******************************************************************************/
+
+.groups-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.group-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  text-decoration: none;
+  border-radius: 12px;
+  background: var(--global-bg-color);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+
+  &:hover {
+    text-decoration: none;
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+
+    .group-link-icon {
+      transform: scale(1.1);
+      background: var(--global-theme-color);
+    }
+  }
+}
+
+.group-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.group-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.group-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem 0;
+  color: var(--global-text-color);
+}
+
+.group-author {
+  font-size: 0.95rem;
+  color: var(--global-text-color-light);
+  margin: 0;
+}
+
+.group-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-shrink: 0;
+}
+
+.group-genre {
+  font-size: 0.75rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+
+  &--philosophy {
+    background: #e8f4fd;
+    color: #1565c0;
+  }
+
+  &--literature {
+    background: #fce4ec;
+    color: #c62828;
+  }
+
+  &--poetry {
+    background: #f3e5f5;
+    color: #7b1fa2;
+  }
+}
+
+.group-year {
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+  font-weight: 500;
+}
+
+.group-link-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: var(--global-code-bg-color);
+  flex-shrink: 0;
+  margin-left: 1.5rem;
+  transition: all 0.3s ease;
+
+  i {
+    font-size: 1.25rem;
+    color: var(--global-text-color);
+  }
+
+  &:hover i {
+    color: white;
+  }
+}
+
+@media (max-width: 768px) {
+  .group-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .group-meta {
+    gap: 0.75rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .group-card {
+    padding: 1rem 1.25rem;
+    border-radius: 8px;
+  }
+
+  .group-title {
+    font-size: 1rem;
+  }
+
+  .group-author {
+    font-size: 0.9rem;
+  }
+
+  .group-link-icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 1rem;
+
+    i {
+      font-size: 1.1rem;
+    }
+  }
+}

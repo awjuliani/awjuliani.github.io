@@ -1,0 +1,57 @@
+# Reading Groups - Online reading groups co-organized since 2020
+# Each entry includes the book/text read, author, year of group, genre, and Wikipedia link
+
+groups:
+  - title: "The Brothers Karamazov"
+    author: "Fyodor Dostoevsky"
+    year: 2025
+    genre: "literature"
+    wikipedia: "https://en.wikipedia.org/wiki/The_Brothers_Karamazov"
+
+  - title: "Gravity & Grace"
+    author: "Simone Weil"
+    year: 2024
+    genre: "philosophy"
+    wikipedia: "https://en.wikipedia.org/wiki/Gravity_and_Grace"
+
+  - title: "Four Quartets"
+    author: "T.S. Eliot"
+    year: 2024
+    genre: "poetry"
+    wikipedia: "https://en.wikipedia.org/wiki/Four_Quartets"
+
+  - title: "Ethics"
+    author: "Baruch Spinoza"
+    year: 2023
+    genre: "philosophy"
+    wikipedia: "https://en.wikipedia.org/wiki/Ethics_(Spinoza)"
+
+  - title: "Anna Karenina"
+    author: "Leo Tolstoy"
+    year: 2022
+    genre: "literature"
+    wikipedia: "https://en.wikipedia.org/wiki/Anna_Karenina"
+
+  - title: "Anti-Oedipus"
+    author: "Gilles Deleuze and Félix Guattari"
+    year: 2022
+    genre: "philosophy"
+    wikipedia: "https://en.wikipedia.org/wiki/Anti-Oedipus"
+
+  - title: "Totality & Infinity"
+    author: "Emmanuel Levinas"
+    year: 2021
+    genre: "philosophy"
+    wikipedia: "https://en.wikipedia.org/wiki/Totality_and_Infinity"
+
+  - title: "The Hour of the Star"
+    author: "Clarice Lispector"
+    year: 2021
+    genre: "literature"
+    wikipedia: "https://en.wikipedia.org/wiki/The_Hour_of_the_Star"
+
+  - title: "Being & Time"
+    author: "Martin Heidegger"
+    year: 2020
+    genre: "philosophy"
+    wikipedia: "https://en.wikipedia.org/wiki/Being_and_Time"
