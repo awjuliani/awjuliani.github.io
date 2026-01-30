@@ -6,6 +6,8 @@ description: Recorded talks and presentations.
 nav: true
 nav_order: 2
 videos:
+  - title: A Simple Machine Learning Perspective on Psychedelics and Neuroplasticity
+    id: bRX80ByWT1A
   - title: A dual-receptor model of serotonergic psychedelics
     id: Mzlyc1AYGlo
   - title: Deep CANALs @ Active Inference Institute 2023
