@@ -93,22 +93,6 @@
   margin-bottom: 1rem;
 }
 
-.creation-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  margin-top: auto;
-}
-
-.creation-tag {
-  font-size: 0.7rem;
-  padding: 0.2rem 0.6rem;
-  border-radius: 20px;
-  background: var(--global-theme-color);
-  color: white;
-  opacity: 0.85;
-}
-
 // Grid layout for creations
 .creations-grid {
   display: flex;

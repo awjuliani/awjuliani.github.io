@@ -25,13 +25,6 @@
       <div class="card-body d-flex flex-column">
         <h5 class="card-title creation-title">{{ include.creation.title }}</h5>
         <p class="card-text creation-description flex-grow-1">{{ include.creation.description }}</p>
-        {% if include.creation.tags %}
-        <div class="creation-tags">
-          {% for tag in include.creation.tags %}
-          <span class="creation-tag">{{ tag }}</span>
-          {% endfor %}
-        </div>
-        {% endif %}
       </div>
     </div>
   </a>

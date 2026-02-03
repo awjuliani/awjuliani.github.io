@@ -81,3 +81,13 @@ projects:
       - visualization
       - data
       - javascript
+
+  - title: "Latent Surfer"
+    description: "Navigate through semantic space by selecting image variations to reach your target."
+    image: "/assets/img/creations/latent-surfer.png"
+    link: "https://latent-surfer.vercel.app/"
+    link_type: "website"
+    tags:
+      - visualization
+      - data
+      - javascript
