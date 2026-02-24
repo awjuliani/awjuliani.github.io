@@ -2,6 +2,12 @@
 # Each entry includes the book/text read, author, year of group, genre, and Wikipedia link
 
 groups:
+  - title: "The Phenomenology of Perception"
+    author: "Maurice Merleau-Ponty"
+    year: 2026
+    genre: "philosophy"
+    wikipedia: "https://en.wikipedia.org/wiki/The_Phenomenology_of_Perception"
+
   - title: "The Brothers Karamazov"
     author: "Fyodor Dostoevsky"
     year: 2025
