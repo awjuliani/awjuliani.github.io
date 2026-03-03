@@ -23,17 +23,25 @@ module ExternalPosts
             doc.data['external_source'] = src['name'];
             doc.data['feed_content'] = e.content;
             doc.data['title'] = "#{e.title}";
-            doc.data['description'] = e.summary;
             doc.data['date'] = e.published;
             doc.data['redirect'] = e.url;
 
-            # Extract thumbnail from content (Medium includes images in content)
-            if e.content
-              img_match = e.content.match(/<img[^>]+src=["']([^"']+)["']/)
-              if img_match
-                doc.data['thumbnail'] = img_match[1]
+            # Extract thumbnail from content or summary
+            thumbnail = nil
+            [e.content, e.summary].each do |source|
+              if source
+                img_match = source.match(/<img[^>]+src=["']([^"']+)["']/)
+                if img_match
+                  thumbnail = img_match[1]
+                  break
+                end
               end
             end
+            doc.data['thumbnail'] = thumbnail if thumbnail
+
+            # Strip HTML tags from summary for clean description text
+            summary = e.summary || ''
+            doc.data['description'] = summary.gsub(/<[^>]+>/, ' ').gsub(/\s+/, ' ').strip;
 
             site.collections['posts'].docs << doc
           end
