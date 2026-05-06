@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an interdisciplinary researcher working across machine learning, neuroscience, psychology, and philosophy. My research focuses on computational approaches to understanding consciousness, cognition, and mental health, as well as evaluating the cognitive and social capacities of modern AI systems. I have built widely-used open-source tools for reinforcement learning research and developed various popular educational resources related to my research interests.
+I am an interdisciplinary researcher working across machine learning, neuroscience, psychology, and philosophy. My research focuses on computational approaches to understanding consciousness, cognition, and mental health, as well as evaluating the cognitive and social capacities of modern AI systems. In addition to pure research, I have also built widely-used open-source tools for reinforcement learning research and developed various popular educational resources including online tutorials and course materials.
 
 I am currently a senior research scientist at the [Institute for Advanced Consciousness Studies](https://advancedconsciousness.org/), where I have been studying the social inference capabilities of large language models in embodied virtual environments and collaborating on developing a theoretical framework for embodiment-based self-and-other-care in artificial agents.
 
