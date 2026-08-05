@@ -91,3 +91,13 @@ projects:
       - visualization
       - data
       - javascript
+
+  - title: "Synaptic Score"
+    description: "An interactive musical visualization of different drug mechanisms."
+    image: "/assets/img/creations/synaptic-score.png"
+    link: "https://awjuliani.github.io/synaptic-score/"
+    link_type: "website"
+    tags:
+      - visualization
+      - data
+      - javascript
