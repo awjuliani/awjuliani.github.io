@@ -18,12 +18,12 @@ nav_order: 4
     </div>
   </a>
 
-  <a href="https://twitter.com/awjuliani" class="social-card" target="_blank" rel="noopener" title="Twitter/X">
-    <div class="social-icon twitter">
-      <i class="fab fa-twitter"></i>
+  <a href="https://x.com/awjuliani" class="social-card" target="_blank" rel="noopener" title="X">
+    <div class="social-icon x">
+      <i class="fab fa-x-twitter"></i>
     </div>
     <div class="social-info">
-      <h3>Twitter / X</h3>
+      <h3>X</h3>
       <span>@awjuliani</span>
     </div>
   </a>
@@ -58,7 +58,7 @@ nav_order: 4
     </div>
   </a>
 
-  <a href="https://scholar.google.com/citations?user=awjuliani" class="social-card" target="_blank" rel="noopener" title="Google Scholar">
+  <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" class="social-card" target="_blank" rel="noopener" title="Google Scholar">
     <div class="social-icon scholar">
       <i class="ai ai-google-scholar"></i>
     </div>

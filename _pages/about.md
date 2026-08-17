@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Scientist
+subtitle: Senior Research Scientist, <a href="https://advancedconsciousness.org/">Institute for Advanced Consciousness Studies</a>
 
 profile:
   align: right
   image: prof_pic.jpeg
+  image_alt: Arthur Juliani
   image_circular: true # crops the image to make it circular
   address:
 
-news: false  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
@@ -30,4 +30,4 @@ My graduate research at the [University of Oregon](https://www.uoregon.edu/) foc
 
 [Download my curriculum vitae](/assets/pdf/juliani_cv.pdf)
 
-[Visit my Google Scholar profile](https://scholar.google.com/citations?user=awjuliani)
+[Visit my Google Scholar profile](https://scholar.google.com/citations?user=lzxv-hQAAAAJ)

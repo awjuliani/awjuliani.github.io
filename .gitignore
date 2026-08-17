@@ -3,10 +3,14 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+# Not committed: a lockfile could not be validated on macOS (eventmachine 1.2.7
+# cannot compile against modern Ruby on Darwin). Generate one from a successful
+# CI run or a Linux container before committing it.
+Gemfile.lock
 .DS_store
+.DS_Store
 .ruby-version
 .tweet-cache
-Gemfile.lock
 vendor
 
 

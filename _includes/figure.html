@@ -17,8 +17,8 @@
     <img
       src="{% if include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
       {% if include.class %}class="{{ include.class }}"{% endif %}
-      {% if include.width %}width="{{ include.width }}"{% else %}width="auto"{% endif %}
-      {% if include.height %}height="{{ include.height }}"{% else %}height="auto"{% endif %}
+      {% if include.width %}width="{{ include.width }}"{% endif %}
+      {% if include.height %}height="{{ include.height }}"{% endif %}
       {% if include.min-width %}min-width="{{ include.min-width }}"{% endif %}
       {% if include.min-height %}min-height="{{ include.min-height }}"{% endif %}
       {% if include.max-width %}max-width="{{ include.max-width }}"{% endif %}
@@ -26,7 +26,8 @@
       {% if include.alt %}alt="{{ include.alt }}"{% endif %}
       {% if include.title %}title="{{ include.title }}"{% endif %}
       {% if include.zoomable %}data-zoomable{% endif %}
-      onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
+      loading="{{ include.loading | default: 'lazy' }}"
+      decoding="async"
     />
   </picture>
 

@@ -283,16 +283,16 @@
   }
 
   // Platform-specific colors
-  &.twitter {
-    background: #1da1f2;
+  &.x {
+    background: #000;
   }
 
   &.github {
-    background: #333;
+    background: #24292f;
   }
 
   &.medium {
-    background: #000;
+    background: #595959;
   }
 
   &.linkedin {
@@ -423,11 +423,21 @@
   text-transform: capitalize;
   font-weight: 500;
 
-  &--philosophy,
-  &--literature,
+  // Distinct hue per genre so the pill actually distinguishes them, using
+  // theme variables so they adapt to dark mode.
+  &--philosophy {
+    background: var(--global-genre-philosophy-bg);
+    color: var(--global-genre-philosophy-text);
+  }
+
+  &--literature {
+    background: var(--global-genre-literature-bg);
+    color: var(--global-genre-literature-text);
+  }
+
   &--poetry {
-    background: #e8f4fd;
-    color: #1565c0;
+    background: var(--global-genre-poetry-bg);
+    color: var(--global-genre-poetry-text);
   }
 }
 
@@ -452,11 +462,12 @@
   i {
     font-size: 1.25rem;
     color: var(--global-text-color);
+    transition: color 0.3s ease;
   }
+}
 
-  &:hover i {
-    color: white;
-  }
+.group-card:hover .group-link-icon i {
+  color: white;
 }
 
 @media (max-width: 768px) {
@@ -492,6 +503,40 @@
 
     i {
       font-size: 1.1rem;
+    }
+  }
+}
+
+/*******************************************************************************
+ * Dark mode adjustments
+ ******************************************************************************/
+
+// The near-black platform tiles (X, GitHub, Medium) disappear against the dark
+// background, so lift them to visible tones that stay distinguishable.
+html[data-theme='dark'] {
+  .social-icon {
+    &.x {
+      background: #555;
+    }
+
+    &.github {
+      background: #6e7681;
+    }
+
+    &.medium {
+      background: #8a8a8a;
+    }
+  }
+
+  // Card shadows tuned for a light ground read as dark smudges; deepen them.
+  .creation-card,
+  .talk-card,
+  .social-card,
+  .group-card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.35);
+
+    &:hover {
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
     }
   }
 }

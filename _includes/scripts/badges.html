@@ -1,6 +1,13 @@
+{%- comment -%}
+  Altmetric and Dimensions embeds are only emitted by _layouts/bib.html, which
+  runs on the publications page and on the homepage's selected-papers list.
+  Load them there instead of site-wide.
+{%- endcomment -%}
+{%- if page.url == '/publications/' or page.selected_papers -%}
 {%- if site.badges.altmetric_badge %}
   <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 {%- endif %}
 {%- if site.badges.dimensions_badge %}
   <script async src="https://badge.dimensions.ai/badge.js"></script>
 {%- endif %}
+{%- endif -%}

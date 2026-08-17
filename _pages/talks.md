@@ -27,7 +27,8 @@ videos:
   <a href="https://www.youtube.com/watch?v={{ video.id }}" class="talk-card" target="_blank" rel="noopener noreferrer">
     <div class="talk-thumbnail">
       <img src="https://img.youtube.com/vi/{{ video.id }}/hqdefault.jpg"
-           alt="{{ video.title }}">
+           alt="Video thumbnail: {{ video.title }}"
+           width="480" height="360" loading="lazy" decoding="async">
       <div class="talk-play-btn">
         <i class="fas fa-play"></i>
       </div>

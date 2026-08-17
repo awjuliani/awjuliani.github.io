@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="refresh" content="0; url={{ page.redirect }}">
+    <meta name="robots" content="noindex, follow">
+    <title>{{ page.title }}</title>
+    <link rel="canonical" href="{{ page.redirect }}">
+  </head>
+  <body>
+    <p>
+      This post is published on {{ page.external_source | default: "an external site" }}.
+      If you are not redirected automatically,
+      <a href="{{ page.redirect }}">continue to &ldquo;{{ page.title }}&rdquo;</a>.
+    </p>
+  </body>
+</html>
