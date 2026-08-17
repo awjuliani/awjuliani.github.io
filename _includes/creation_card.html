@@ -4,7 +4,7 @@
     <div class="card creation-card h-100">
       <div class="creation-img-wrapper">
         {% if include.creation.image %}
-        <img src="{{ include.creation.image | relative_url }}" class="card-img-top creation-img" alt="{{ include.creation.title }}">
+        <img src="{{ include.creation.image | relative_url }}" class="card-img-top creation-img" alt="{{ include.creation.title }}" width="800" height="500" loading="lazy" decoding="async">
         {% else %}
         <div class="creation-placeholder">
           {% if include.creation.link_type == "github" %}

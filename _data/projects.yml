@@ -4,7 +4,7 @@
 projects:
   - title: "ML-Agents Toolkit"
     description: "Open-source Unity plugin for training intelligent agents using reinforcement learning and imitation learning."
-    image: "/assets/img/creations/ml-agents.png"
+    image: "/assets/img/creations/ml-agents.jpg"
     link: "https://github.com/Unity-Technologies/ml-agents"
     link_type: "github"
     tags:
@@ -14,7 +14,7 @@ projects:
 
   - title: "Obstacle Tower"
     description: "Procedurally generated 3D environment for benchmarking AI agents on generalization and sparse reward learning."
-    image: "/assets/img/creations/obstacle-tower.png"
+    image: "/assets/img/creations/obstacle-tower.jpg"
     link: "https://github.com/Unity-Technologies/obstacle-tower-env"
     link_type: "github"
     tags:
@@ -24,7 +24,7 @@ projects:
 
   - title: "Neuro-Nav"
     description: "A library for neurally-plausible reinforcement learning research, focusing on navigation and spatial cognition."
-    image: "/assets/img/creations/neuro-nav.png"
+    image: "/assets/img/creations/neuro-nav.jpg"
     link: "https://github.com/awjuliani/neuro-nav"
     link_type: "github"
     tags:
@@ -34,7 +34,7 @@ projects:
 
   - title: "Dream JRPG"
     description: "An experiment in using LLMs to procedurally generate simple Japanese-style RPGs with dynamic storylines, characters, and combat."
-    image: "/assets/img/creations/dream-jrpg.png"
+    image: "/assets/img/creations/dream-jrpg.jpg"
     link: "https://github.com/awjuliani/dream-jrpg"
     link_type: "github"
     tags:
@@ -44,7 +44,7 @@ projects:
 
   - title: "RL Playground"
     description: "Interactive web-based demonstration of tabular reinforcement learning algorithms in a grid world environment."
-    image: "/assets/img/creations/rl-playground.png"
+    image: "/assets/img/creations/rl-playground.jpg"
     link: "https://awjuliani.github.io/web-rl-playground"
     link_type: "website"
     tags:
@@ -54,7 +54,7 @@ projects:
 
   - title: "Metaphysics Quiz"
     description: "Discover your philosophical worldview across 8 dimensions and match with 40 major philosophical systems."
-    image: "/assets/img/creations/metaphysics-quiz.png"
+    image: "/assets/img/creations/metaphysics-quiz.jpg"
     link: "https://awjuliani.github.io/metaphysics-quiz"
     link_type: "website"
     tags:
@@ -64,7 +64,7 @@ projects:
 
   - title: "Tarot Carousel"
     description: "A companion guide to 'Meditations on the Tarot' with an interactive card-based interface."
-    image: "/assets/img/creations/tarot-carousel.png"
+    image: "/assets/img/creations/tarot-carousel.jpg"
     link: "https://awjuliani.github.io/tarot-carousel"
     link_type: "website"
     tags:
@@ -74,7 +74,7 @@ projects:
 
   - title: "Weather Explore"
     description: "Compare monthly climate data across different cities visualized as 3D rings."
-    image: "/assets/img/creations/weather-explore.png"
+    image: "/assets/img/creations/weather-explore.jpg"
     link: "https://awjuliani.github.io/weather-explore"
     link_type: "website"
     tags:
@@ -84,7 +84,7 @@ projects:
 
   - title: "Latent Surfer"
     description: "Navigate through semantic space by selecting image variations to reach your target."
-    image: "/assets/img/creations/latent-surfer.png"
+    image: "/assets/img/creations/latent-surfer.jpg"
     link: "https://latent-surfer.vercel.app/"
     link_type: "website"
     tags:
@@ -94,7 +94,7 @@ projects:
 
   - title: "Synaptic Score"
     description: "An interactive musical visualization of different drug mechanisms."
-    image: "/assets/img/creations/synaptic-score.png"
+    image: "/assets/img/creations/synaptic-score.jpg"
     link: "https://awjuliani.github.io/synaptic-score/"
     link_type: "website"
     tags:

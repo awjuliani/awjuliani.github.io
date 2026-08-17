@@ -6,7 +6,7 @@
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
+  --global-text-color-light: #{$grey-color-mid};
   --global-theme-color: #{$cyan-color};
   --global-hover-color: #{$cyan-color};
   --global-hover-text-color: #{$white-color};
@@ -16,6 +16,14 @@
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0,0,0,.1);
   --global-card-bg-color: #{$white-color};
+
+  // Reading-group genre pills
+  --global-genre-philosophy-bg: #e8f4fd;
+  --global-genre-philosophy-text: #1565c0;
+  --global-genre-literature-bg: #fdf0e8;
+  --global-genre-literature-text: #b45309;
+  --global-genre-poetry-bg: #f3e8fd;
+  --global-genre-poetry-text: #7b1fa2;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -51,13 +59,21 @@ html[data-theme='dark'] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color-light};
+  --global-text-color-light: #{$grey-color-mid-dark};
   --global-theme-color: #{$cyan-color};
   --global-hover-color: #{$cyan-color};
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
+
+  // Reading-group genre pills, inverted for the dark ground
+  --global-genre-philosophy-bg: #12354f;
+  --global-genre-philosophy-text: #8fc7f5;
+  --global-genre-literature-bg: #4a2f12;
+  --global-genre-literature-text: #f0b878;
+  --global-genre-poetry-bg: #3a1f4a;
+  --global-genre-poetry-text: #d9a8f0;
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};

@@ -24,6 +24,11 @@ $pink-color-light:    #ffdddd !default;
 $yellow-color:        #efcc00 !default;
 
 $grey-color:          #828282 !default;
+// Secondary text: #828282 is only 3.84:1 on white, below the WCAG AA 4.5:1
+// minimum for body text. These two hit 5.33:1 on white and 7.17:1 on the dark
+// background respectively.
+$grey-color-mid:      #6b6b6b !default;
+$grey-color-mid-dark: #a8a8a8 !default;
 $grey-color-light:    lighten($grey-color, 40%);
 $grey-color-dark:     #1C1C1D;
 $grey-900:            #212529;

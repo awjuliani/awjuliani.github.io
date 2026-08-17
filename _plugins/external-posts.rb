@@ -11,8 +11,14 @@ module ExternalPosts
       if site.config['external_sources'] != nil
         site.config['external_sources'].each do |src|
           p "Fetching external posts from #{src['name']}:"
-          xml = HTTParty.get(src['rss_url']).body
-          feed = Feedjira.parse(xml)
+          begin
+            xml = HTTParty.get(src['rss_url']).body
+            feed = Feedjira.parse(xml)
+          rescue StandardError => err
+            Jekyll.logger.warn "External posts:",
+              "could not fetch #{src['name']} (#{err.class}: #{err.message}) - skipping"
+            next
+          end
           feed.entries.each do |e|
             p "...fetching #{e.url}"
             slug = e.title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
@@ -25,6 +31,11 @@ module ExternalPosts
             doc.data['title'] = "#{e.title}";
             doc.data['date'] = e.published;
             doc.data['redirect'] = e.url;
+            # These posts live on the external site; the local URL is only a
+            # redirect stub, so keep it out of the sitemap and give it a layout
+            # (without one, Jekyll emits an empty page).
+            doc.data['layout'] = 'external-redirect';
+            doc.data['sitemap'] = false;
 
             # Extract thumbnail from content or summary
             thumbnail = nil
